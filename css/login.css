@@ -99,10 +99,10 @@ body, html {
 }
 
 .form-signin .form-control:focus {
-    border-color: rgb(104, 145, 162);
+    border-color: #6AA6DA;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #6AA6DA;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #6AA6DA;
 }
 
 .btn.btn-signin {
@@ -125,11 +125,25 @@ body, html {
 
 
 .forgot-password {
-    color: rgb(104, 145, 162);
+    color: #6AA6DA;
 }
 
 .forgot-password:hover,
 .forgot-password:active,
 .forgot-password:focus{
-    color: rgb(12, 97, 33);
+    color: #6AA6DA;
+}
+
+.btn-success,
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+    background-color: #6AA6DA;
+    border-color: #6AA6DA;
+}
+
+.alert-success {
+    color: #6AA6DA;
+    background-color: #E8F3FA;
+    border-color: #6AA6DA;
 }
