@@ -6,9 +6,32 @@ http://work.smarchal.com/twbscolor/
 .navbar-default {
   background-color: #6AA6DA;
   border-color: #6AA6DA;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
 }
 .navbar-default .navbar-brand {
   color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.navbar-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+}
+.navbar-default .navbar-nav > li > a i {
+  margin-right: 7px;
+  width: 18px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.9;
+}
+.navbar-default .navbar-nav > li > a:hover i,
+.navbar-default .navbar-nav > li.active > a i {
+  opacity: 1;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
